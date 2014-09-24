@@ -1,0 +1,29 @@
+user
+	id
+	name
+	version
+	skillnote_id
+	skillnote_name
+	skill
+
+music
+	id
+	name
+
+difficulty
+	id
+	name
+	old_name
+
+chart
+	id
+	music_id
+	diff_id
+	level
+
+score
+	id
+	user_id
+	chart_id
+	achievement_rate
+	comment
